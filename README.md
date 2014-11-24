@@ -1,10 +1,10 @@
 ###Zabbix template for Oracle databases monitoring via ODBC.
 
-This is kinda fork of Orabbix probes.
+This is kinda fork of [Orabbix](http://www.smartmarmot.com/product/orabbix/) probes.
 
 Please report any problems, suggest items, fork, etc.
 
-#####Currently supports 
+#####Currently supports:
 * 57 items
 * 15 triggers
 * 11 graphs
@@ -13,7 +13,7 @@ Please report any problems, suggest items, fork, etc.
 * Oracle client software
 * unixODBC configured with proper driver(s) and DSN(s)
 
-#####Installation
+#####Installation:
 * Import template. "Template Oracle ODBC"
 * add to oracle host 3 macroses with known values:
   - {$DSN} - your DSN for oracle database You have configured in odbc.ini
