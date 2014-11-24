@@ -1,8 +1,9 @@
 ###Zabbix template for Oracle databases monitoring via ODBC.
+This template monitors Oracle database health, performance, security audit, etc.
 
 This is kinda fork of [Orabbix](http://www.smartmarmot.com/product/orabbix/) probes.
 
-Please report any problems, suggest items, fork, etc.
+Please report any problems, suggest items, fork and so on.
 
 #####Currently supports:
 * 57 items
