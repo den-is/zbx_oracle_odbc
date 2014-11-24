@@ -10,6 +10,7 @@ Please report any problems, suggest items, fork, etc.
 * 11 graphs
 
 #####Requirements:
+* Zabbix 2.0+
 * Oracle client software
 * unixODBC configured with proper driver(s) and DSN(s)
 
