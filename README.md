@@ -15,8 +15,13 @@ Please report any problems, suggest items, fork, etc.
 
 #####Installation:
 * Import template. "Template Oracle ODBC"
-* add to oracle host 3 macroses with known values:
-  - {$DSN} - your DSN for oracle database You have configured in odbc.ini
-  - {$ORA_USER} - database user
-  - {$ORA_PASS} - database password
+* Add to oracle host 3 macroses with known values:
+  - **{$DSN}** - your DSN for oracle database You have configured in odbc.ini
+  - **{$ORA_USER}** - database user
+  - **{$ORA_PASS}** - database password
 
+#####Known issues:
+* **Audit** item returns "empty" result. *Disabled by default*.
+* **Locks** item returns "empty" result. *Disabled by default*.
+* **Tablespaces** item returns "empty" result. *Disabled by default*.
+* **Users Locked** item returns "empty" result. Fixed for now with SQL by itself. *Enabled by default*.
