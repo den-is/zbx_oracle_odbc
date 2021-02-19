@@ -1,4 +1,4 @@
-# Zabbix template for Oracle databases monitoring via ODBC
+## Zabbix template for Oracle databases monitoring via ODBC
 
 This template monitors Oracle database health, performance, security audit, etc.
 
